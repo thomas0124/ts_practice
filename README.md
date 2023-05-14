@@ -6,14 +6,13 @@
 ### ディレクトリを作る
 - ```
   $mkdir practice
-  ```を実行
 - ```
   $cd practice
-  ```を実行
+  ```
 ### ファイルを作る
 - ```
   $npm init --yes
-  ```(--yesは全ての質問をyesで答えデフォルト値とするオプション)を実行
+  ```
 - package.jsonが作成される
 - package.jsonに変更を加える
 - "module""の追加が必要
@@ -31,12 +30,12 @@
 ### TypeScriptをインストール
 - ```
   $npm install --save-dev typescript @types/node
-  ```を実行
+  ```
 - node_modulesディレクトリ, package-lock.jsonが作成される
 - tsconfig.jsonを作成する
 - ```
   $npx tsc --init
-  ```を実行
+  ```
 - tsconfig.jsonに変更を加える(必要に応じて)
 - "target"の変更
 
@@ -103,6 +102,5 @@
 - ```
   $node dist/index.js
   ```
-  を実行(パスの位置に注意)
 - 実行結果が表示される
 
