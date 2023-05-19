@@ -93,3 +93,4 @@
 - $node dist/index.jsを実行(パスの位置に注意)
 - 実行結果が表示される
 
+[English](README_EN.md)
